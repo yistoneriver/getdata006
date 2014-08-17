@@ -42,7 +42,7 @@ an activity ID (1 to 6) for the corresponding row of the data frame obtained in 
 
 ##### Step4 Appropriately labels the data set with descriptive variable names
 * Replaces illegal characters of each feature with "." and then eliminates consective appearance of "." and trailing ".".
-* Elimnates second "Body" from some variables (believes this is a typo)
+* Eliminates second "Body" from some variables (believes this is a typo)
 * Use the modified feature strings as the descriptive names of the data frame obtained in Step1
 
 ##### Step5 Creates a second, independent tidy data set with the average of each variable for each activity and each subject
@@ -67,7 +67,7 @@ The number identifies the subject
 Activities
 
 * ID variable
-* One of the follwing string
+* One of the follwing string:
 - WALKING
 - WALKING_UPSTAIRS
 - WALKING_DOWNSTAIRS
