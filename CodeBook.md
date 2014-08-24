@@ -11,7 +11,7 @@ The following files in the original data used as inputs:
 * activity_label.txt 
 * features.txt
 * train/subject.txt
-*   train/X_train.txt
+* train/X_train.txt
 * train/y_train.txt
 * test/subject.txt
 * test/X_test.txt
@@ -53,8 +53,8 @@ an activity ID (1 to 6) for the corresponding row of the data frame obtained in 
 * Store the resulting data set (tidy data set) into a file.
 
 ## Variables in the tidy data set
-There are two type of variables: 1) ID variables and 2) measurement variables.
-Each measurement variable is averaged over each subject and activity pair.
+There are two type of variables: 1) ID variables and 2) measurement variables (measured in gravity)
+averaged over each subject and activity pair.
 
 ### subject
 The number identifies the subject
@@ -67,13 +67,14 @@ The number identifies the subject
 Activities
 
 * ID variable
-* One of the follwing string:
-- WALKING
-- WALKING_UPSTAIRS
-- WALKING_DOWNSTAIRS
-- SITTING
-- STANDING
-- LAYING
+
+One of the follwing string:
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 ## tBodyAcc.mean.X
 Estimated mean value of the body acceleration signals (time domain) in the X direction.
