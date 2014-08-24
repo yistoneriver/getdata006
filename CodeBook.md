@@ -1,9 +1,10 @@
 # CodeBook
-This code book shows how run_analysis.R script transforms the orginal data into a
-tidy data set and describes each variable of the tidy data set.
+This code book shows how run_analysis.R script transforms the orginal data (Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.) into tidy data set and describes each variable of the tidy data set. 
+
+The original data set is available from <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
 ## run_analysis.R scrpt
-run_analysis.R scripts perform the 5 step analysis.
+run_analysis.R scripts perform the five step analysis.
 
 ### Input
 The following files in the original data used as inputs:
